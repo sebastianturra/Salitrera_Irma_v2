@@ -10,30 +10,33 @@
 <title>Salitrera Irma Ltda.</title>
 <head>
 <body>
-	<!-- header -->
-	<header class="textLight">
-		<a href="../index.html">
-			<img src="../img/logosmall.png" alt="logo small de sanitaria irma">
-		</a>
-		<a class="iniciar-sesion" href="intranet.html">Iniciar sesion</a>	
-	</header>
-	<!-- header -->
-	<!-- link de navegación -->
-	<nav>
-		<ul>
-			<li><a href="servicio.html">Servicio</a>
-				<ul>
-					<li><a href="servicio.html#baniosquimicos">Baños quimicos</a></li>
-					<li><a href="servicio.html#fosas">Mantención de fosas</a></li>
-					<li><a href="servicio.html#asesoria">Asesorias</a></li>
-				</ul>
-			</li>
-			<li><a href="promociones.html">Promociones</a></li>
-			<li><a href="quienessomos.html">¿Quienes somos?  </a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-		</ul>	
-	</nav>
-	<!-- link de navegación -->
+<!-- header -->
+	<header class="header">
+			<a href="../index.html"> 
+					<img src="../img/logosmall.png" alt="logo small de sanitaria irma">
+				</a>
+					
+			<div class="header__iniciarsesion">		
+				<a href="../views/intranet.html">Iniciar sesion</a>	
+			</div>	
+		</header>
+<!-- header -->
+<!-- nav -->
+		<nav>
+			<ul>
+				<li><a href="servicio.html">Servicio</a>
+					<ul>
+						<li><a href="servicio.html#baniosquimicos">Baños quimicos</a></li>
+						<li><a href="servicio.html#fosas">Mantención de fosas</a></li>
+						<li><a href="servicio.html#asesoria">Asesorias</a></li>
+					</ul>
+				</li>
+				<li><a href="promociones.html">Promociones</a></li>
+				<li><a href="quienessomos.html">¿Quienes somos?  </a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>	
+		</nav>
+<!-- nav -->
 	<!-- Main -->
 	<main class="intranet">
 		<form method="post" action="intranet.html" enctype="multipart/form-data">	
@@ -43,20 +46,20 @@
 				<p><input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario o correo" required></p>
 				<p><label class="text-left text-light" for="contrasena">Contraseña:</label></p>
 				<p><input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" required></p>
-				<aside class="textCenter cuadro__boton"><input type="submit" name="enviar" id="enviar" value="Enviar">
+				<aside class="cuadro__boton"><input type="submit" name="enviar" id="enviar" value="Enviar">
 				   <input type="button" name="olvido" id="olvido" value="¿Olvidó su contraseña?"></aside>
 			</fieldset>
 		</form>	
 	</main>
 	<!-- Main -->
-	<!-- footer -->
-	<footer class="footer textCenter">
-	    	<section class="textRegular">
-		    	<p>Av. Libertador Jose de San Martin n°180</p>
-		    	<p>+56 58 2245120</p>
-	    		<p>contacto@salitrerairma.cl</p>		
-	    	</section>
-	    <aside >
+<!-- footer -->
+	<footer class="footer">
+	    <section class="textRegular textCenter">
+		    <p>Av. Libertador Jose de San Martin n°180</p>
+		    <p>+56 58 2245120</p>
+	    	<p>contacto@salitrerairma.cl</p>	
+	    </section>	
+	    <aside class="footer__redes">
 	    	<a href="#" target="_BLANK">
 	    		<img src="../img/facebook.png" alt="logo de facebook">	
 	    	</a>
@@ -69,6 +72,6 @@
 	    </aside>
 	    <p class="textLight">@Sebastián Turra</p>
 	</footer>
-	<!-- footer -->
+<!-- footer -->
 </body>
 </html>
