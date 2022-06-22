@@ -365,8 +365,6 @@ ul li:hover ul {
 
 .cuadro__promocion{
 	border: solid 1px black;
-	width: auto;
-	height: 200px;
 	padding: 10px;
 	margin: 0 10px 10px 0;
 }
@@ -375,14 +373,21 @@ ul li:hover ul {
     text-align: center;
 }
 
-.cuadro__boton{
-	margin: 10px 0 10px 0;
-	font-size: 2rem;
-}
-
 .cuadro__titulo{
 	margin: 10px 0;
 }
+
+.cuadro__boton{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin: 10px 0 0px 0;
+	}
+
+.cuadro__boton input{
+		font-size: 2rem;	
+	}	
 
 /* promoción */
 
@@ -478,13 +483,6 @@ ul li:hover ul {
 
 	.menuContacto__field input{
 		margin: 0 0 10px 0;
-	}
-
-	.cuadro__boton{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
 	}
 
 	.cuadro__botton input{
