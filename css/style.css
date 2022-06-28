@@ -146,6 +146,11 @@ rgba(9,46,76,1) light morado
 
 .header__iniciarsesion{
 	padding-right: 20px;
+
+	/* Animate css*/
+	animation: slideInRight;
+	animation-duration: 2s;
+	/* Animate css*/
 }
 
 .header__iniciarsesion a{
@@ -174,7 +179,7 @@ ul li{
 	/*display: inline-block;*/
   /*  width: 25%;*/
     position:relative; 
-    font-size: 2rem;
+    font-size: 1.5rem;
   /*  flex: 1 0 25%;*/
     
  }
@@ -210,6 +215,7 @@ ul li:hover ul {
 /* footer */
 
 .footer{
+	padding: 10px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -255,10 +261,7 @@ ul li:hover ul {
 }
 
 .principal__textop{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin: 0 40px 0 20px;
+	margin-top: 10px;
 	background-color: rgba(107,123,162,.4);
 	text-align: left;
 }
@@ -268,7 +271,7 @@ ul li:hover ul {
 }
 
 .principal p a:hover{
-	color#8D3CB3
+	color#8D3CB3;
 }
 
 /* principal */
@@ -778,6 +781,75 @@ ul li:hover ul {
 
 /* grid first mobile intranet*/
 
+/* transiciones */
+	/* header*/
+	.header a{
+		transition-duration: 3s;
+		transition-timing-function: ease;
+		transition-property: width , height;
+		cursor: pointer;
+	}
+
+	.header a:hover{
+		width: 500px;
+		height: 100px;
+	}
+	
+	/* header*/
+	/* titulo irma */
+	main article h1:hover{
+		display: block;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		width: auto;
+		font-size: 60px;
+		font-variant: small-caps;
+		text-decoration: line-through;
+		font-weight: 600;
+		font-style: italic;
+		line-height: 15px;
+		color: red;
+		transition: all 2s ease-in;
+		cursor: pointer;
+	}
+	
+	/* titulo irma */
+/* transiciones */
+
+/*animations*/
+	/* footer */	
+		footer aside{
+		animation-name: animacion1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+		@keyframes animacion1{
+			0%{width: 212px}
+			25%{width: 300px}
+			50%{width: 240px}
+			75%{width: 300px}
+			100%{width: 212px}
+		}
+	
+	/* footer */
+	/* resumen */
+		.contador{
+		 animation-name: animacion2;
+		 animation-duration: 3s;
+		 animation-iteration-count: 10;
+		 animation-timing-function: ease-out;	
+		}
+
+		@keyframes animacion2{
+			from{opacity: 0;}
+			to{opacity: 1;}	
+		}
+
+
+	/* resumen */
+/*animations*/
 
 
 
