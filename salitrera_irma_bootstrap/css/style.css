@@ -17,6 +17,14 @@
 .bg-darkgrey{
 	background-color: rgba(229,221,221,.8); /*dark grey*/
 }
+
+.bg-red{
+	background-color: red;
+}
+
+.bg-yellow{
+	background-color: yellow;
+}
 /*background color*/
 /*background texto*/
 .bg-h1{
@@ -44,7 +52,8 @@
 	background-attachment: fixed;
 	height: auto;
 }
-
 /*background*/
+
+
 
 
